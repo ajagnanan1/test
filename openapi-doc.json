@@ -7,7 +7,20 @@
         "/test": {
             "get": {
                 "summary": "sdfsdf",
-                "description": "sdfsdf"
+                "description": "sdfsdf",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "type": "null"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "$ref": "#/definitions/cxzc"
+                        }
+                    }
+                }
             }
         },
         "/test/sdfsdf": {
