@@ -4,6 +4,17 @@
         "title": "test"
     },
     "paths": {
-        "/test": {}
+        "/test": {
+            "get": {
+                "summary": "sdfsdf",
+                "description": "sdfsdf"
+            }
+        },
+        "/test/sdfsdf": {
+            "get": {}
+        }
+    },
+    "definitions": {
+        "cxzc": {}
     }
 }
